@@ -16,5 +16,35 @@ namespace Bookstore_C
         {
             InitializeComponent();
         }
+
+        private void SearchField_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddToCartButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RemoveBookFromCartButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CheckoutButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ClearLogButton_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CloseApplicationButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
