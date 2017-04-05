@@ -1,0 +1,34 @@
+This is the documentation of this Worktest from Contribe about C#.
+
+This is how the program is supposed to work:
+
+1.	Type in the "searchfield" what to search for. Needs to be both author and book title, seperated by only a comma (How To Make Money,Roch Block).
+2.	Push "Search for book"
+3.	Books found will be presented in the box right under the "searchfield" or if search failed, message will be presented in the log to the right.
+4.	Select book(s) and then press "Add to cart" and a question of how many books of each book you want to add.
+5.	Book(s) will appear in the box to the right and the total value of cart.
+5B.	if you want to remove book(s) select them in the box and then press "Remove from cart" and what has been removed is put in the log.
+6.	if you want to checkout, press "checkout" and what has been removed will be put in the log and what has been bought and and that price is shown in the log.
+7.	If log needs to be cleared, press "Clear Log."
+8.	Press "Close" to close application.
+
+Now, known issues:
+
+1.	I have never worked with "Task" before and I don't know how to utilise it.
+2.	I have not used the variables from IBook interface because i deemed it was not needed for the current version,
+	but if I did know how to use "Task," it would look different.
+3.	едц does not work from reading from the specific file since its not "едц" from the start.
+4.	conversion of types between the front and back is not compatible, so the list of books found and the cart show no information.
+5.	the searched book is found, but not sent back to front since i dont know how to convert it.
+6.	Can't update the log with information.
+7.	Did not add a field for the cart value on the front.
+8.	The log does only show information on one row so message history is lost.
+9.	Not really an Issue but function UpdateCart is right now quite obselete.
+10.	Unit tests have not been written since I'm lacking in knowledge.
+
+
+
+
+
+
+Lack of knowledge of some things puts a stop on my progress. First and foremost "Task" and conversion of the lists between front and back
